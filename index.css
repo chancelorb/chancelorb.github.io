@@ -160,6 +160,25 @@ hr {
 .skill-text {
   padding-top: 4em;
 }
+.autoplay {
+  width: 80%;
+  margin: auto;
+}
+.autoplay-pics {
+  box-sizing: border-box;
+  width: 90%;
+  height: 100px;
+  font-size: 80px;
+  outline: none;
+}
+.slick-arrow {
+    background-color: red !important;
+  }
+
+
+
+
+
 
 /* contact */
 
