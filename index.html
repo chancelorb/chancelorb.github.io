@@ -16,7 +16,38 @@
 </head>
 <body>
 
+
   <div class='app'>
+    <nav class="navbar fixed-top navbar-expand-lg header-container navbar-light">
+      <a class='navbar-brand' href='#'><h4>HOME</h4></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class='nav-item nav-link trans' href='#about'><h4>ABOUT</h4></a>
+          <a class='nav-item nav-link trans' href='#projects'><h4>PROJECTS</h4></a>
+          <a class='nav-item nav-link trans' href='#skills'><h4>SKILLS</h4></a>
+          <a class='nav-item nav-link trans' href='#contact'><h4>CONTACT</h4></a>
+        </div>
+      </div>
+    </nav>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        </div>
+      </div>
+    </nav> -->
+
+  <!-- <div class='app'>
     <div class='header-container'>
       <div class='text-container row'>
         <a class='col-2 trans small' href='#about'><h4>ABOUT</h4></a>
@@ -25,7 +56,7 @@
         <a class='col-2 trans small' href='#skills'><h4>SKILLS</h4></a>
         <a class='col-2 trans small' href='#contact'><h4>CONTACT</h4></a>
       </div>
-    </div>
+    </div> -->
 
     <div id='' class='landing-container'>
       <div class='landing-text-container'>
@@ -208,13 +239,19 @@
     </div>
 
   </div>
+
+  <!-- for bbotstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
-
   <script type="text/javascript">
+  const jQuery_3_3_1 = $.noConflict(true);
   $(document).ready(function(){
-    $('.body').click(console.log('hi'));
-    $('.autoplay').slick({
+    $('.body').click(console.log('Thanks for visiting my site!'));
+    jQuery_3_3_1('.autoplay').slick({
       slidesToShow: 4,
       slidesToScroll: 1,
       autoplay: true,
@@ -230,6 +267,8 @@
     });
   });
   </script>
+
+
 
 </body>
 </html>
