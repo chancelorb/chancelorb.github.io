@@ -7,6 +7,7 @@
   color: #fff !important;
 }
 .trans:hover {
+  background-color: rgba(200, 200, 200, 0.8) !important;
   text-decoration: none !important;
   color: #000;
 
@@ -245,6 +246,7 @@ hr {
     color: #fff ;
   }
   .trans:hover {
+    background-color: rgba(200, 200, 200, 0.8) ;
     text-decoration: none ;
     color: #000;
 
