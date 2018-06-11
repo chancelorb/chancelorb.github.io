@@ -247,6 +247,22 @@ hr {
     color: #000;
 
   }
+  .header-container {
+    top: 0 !important;
+    width: 100vw !important;
+    position: fixed !important;
+    z-index: 20 !important;
+    background-color: rgba(225, 225, 225, 1)
+  }
+  .landing-container {
+    text-align: center;
+    background-image: url('https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 85vh;
+  }
 }
 @media only screen and (max-width: 813px) {
   .land-name {text-align: center; padding-top: 0.2em}
