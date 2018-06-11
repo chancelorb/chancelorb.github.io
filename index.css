@@ -117,7 +117,7 @@ hr {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 85vh;
+  height: auto;
 }
 
 .project-text {
@@ -132,6 +132,7 @@ hr {
   max-width: 50em;
   border: solid 1px #fff;
   overflow: scroll;
+  margin-bottom: 2em;
 }
 .p-p-con {
   max-width: 30%;
