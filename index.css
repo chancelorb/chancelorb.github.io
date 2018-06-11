@@ -97,14 +97,15 @@ hr {
 }
 .about-img {
   border: solid 1px #000;
-  width: 50%;
-  height: 80%;
+  width: 18.5em;
+  height: 25em;
+
 }
 .about-content-container {
   padding-top: 2em;
 }
 .a-lower-hr {
-  margin-top: -1em;
+  margin-top: 2em;
   margin-bottom: 4em;
 }
 
