@@ -263,6 +263,17 @@ hr {
     background-attachment: scroll;
     height: 85vh;
   }
+  .contact-container-b {
+    padding-top: -5em;
+    text-align: center;
+    background-image: url('https://images.pexels.com/photos/707408/pexels-photo-707408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 60vh;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 813px) {
   .land-name {text-align: center; padding-top: 0.2em}
