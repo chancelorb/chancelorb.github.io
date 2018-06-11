@@ -164,7 +164,7 @@ hr {
 /* skills */
 
 .skill-container {
-  height: 85vh;
+  height: auto;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
 }
@@ -198,6 +198,10 @@ hr {
 
 .skile-line {
   padding-top: 1em;
+}
+
+.car-con {
+  padding-bottom: 2em;
 }
 
 
