@@ -7,7 +7,10 @@ html {
   text-align: center;
   height: 100%;
   overflow: scroll;
-
+  background-image: radial-gradient(circle, #aaaaaaca, #aaaaaaca 1px, #f3f3f3ff 1px, #f3f3f3ff);
+  background-size: 40px 40px;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 /* header */
 .trans {
@@ -31,9 +34,6 @@ html {
 /* landing */
 
 .landing-container {
-  background-image: radial-gradient(circle, #aaaaaaca, #aaaaaaca 1px, #f3f3f3ff 1px, #f3f3f3ff);
-  background-size: 40px 40px;
-  background-attachment: fixed;
   height: 100vh;
 }
 hr {
@@ -70,9 +70,11 @@ hr {
   text-align: right;
   font-size: 100%;
 }
-.land-name > h3 {
+.land-name > p {
   margin-top: 2em;
   display: table-caption;
+  font-weight: 200;
+  font-size: 1.75;
 }
 
 .land-desc {
@@ -151,4 +153,8 @@ hr {
 .spin-one {
   -webkit-animation: spin-one 1.5s infinite linear;
   animation: spin-one 1.5s infinite linear;
+}
+
+@media only screen and (max-width: 600px) {
+
 }
